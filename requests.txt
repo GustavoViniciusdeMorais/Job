@@ -6,3 +6,5 @@ POST
 	"name": "same",
 	"email" : "same@fexemplo.com"
 }
+
+table = offer_queue
