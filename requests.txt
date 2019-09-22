@@ -1,0 +1,8 @@
+http://systemfirst.test/offer
+
+POST
+
+{
+	"name": "same",
+	"email" : "same@fexemplo.com"
+}
