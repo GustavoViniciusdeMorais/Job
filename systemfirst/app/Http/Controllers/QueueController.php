@@ -39,9 +39,6 @@ class QueueController extends Controller
         //
         try{
             $queue = Queue::create($request->all());
-
-            $offers = Offer::find(['1','2','3']);
-            $queue->offer()->attach($offers);
             return response()->json($offer, 201);
         }catch(Exception $e){
             return ['msg' => $e->getMessage()];
